@@ -8,9 +8,9 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Days+One" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Noto+Sans" rel="stylesheet">
-    
+
     <link rel="stylesheet" href="css/style.css">
-  
+
     <audio id="clip1">
       <source src="https://s3.amazonaws.com/freecodecamp/simonSound1.mp3"></source>
     </audio>
@@ -26,15 +26,19 @@
 </head>
 
 <body>
-    <div class="header">
-        <h1>simon</h1>
-        <h2>A memory game made with XHTML, CSS, and JavaScript</h2>
-    </div>
+  <div class="header">
+      <h1>simon</h1>
+      <h2>A memory game made with XHTML, CSS, and JavaScript</h2>
+      <br />
+      <p>Click the power button then click start. If you guess right 12 times in a row you win!</p>
+      <p>If you check strict you will lose the game and have to start over if you guess wrong.
+      <br />If you dont check strict it will give you another turn to try and get the right order.</p>
+  </div>
   <div id="outer-circle">
-    <div id="topleft"></div>
-    <div id="topright"></div>
-    <div id="bottomleft"></div>
-    <div id="bottomright"></div>
+    <div id="topLeft"></div>
+    <div id="topRight"></div>
+    <div id="bottomLeft"></div>
+    <div id="bottomRight"></div>
     <div id="inner-circle">
       <div id="title" class="font-effect-emboss">simon</div>
       <div id="switches">
